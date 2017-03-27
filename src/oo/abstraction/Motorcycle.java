@@ -6,6 +6,7 @@ public class Motorcycle {
 	String color;
 	int weight;
 	int cc;
+	int id;
 	
 	public Motorcycle(String brand,String name,String color,int weight,int cc){
 		this.brand = brand;
