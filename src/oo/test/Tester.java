@@ -2,7 +2,7 @@ package oo.test;
 
 //Import:加入不同package的class
 import oo.abstraction.Car;
-                   //Car或*
+					//Car或*	
 import java.util.ArrayList;
 				//ArrayList或*
 public class Tester {
@@ -18,7 +18,7 @@ public class Tester {
 		a.add("897");
 //		a.add(true);
 		System.out.println(a.size());
-		//add:增加 ; size:個數 ; set:改變(第幾個, 第幾個改成這個)
+		//add:增加 ; size:個數 ; set:改變(第幾個, 第幾個改成這個); get:
 		a.add("582");
 		a.add("963");
 		System.out.println(a.size());
