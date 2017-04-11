@@ -5,7 +5,7 @@ import oo.abstraction.Car;
 					//Car或*	
 import java.util.ArrayList;
 				//ArrayList或*
-public class Tester {
+public class Test {
 	
 
 	public static void main(String[] args) {
@@ -37,6 +37,7 @@ public class Tester {
 		 讓使用者輸入發票好號碼(長度不限)
 		 判斷尾數三位是否中獎
 		 */
+		
 	}
 
 }

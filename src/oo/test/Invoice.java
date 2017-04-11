@@ -1,4 +1,4 @@
-package oo.abstraction;
+package oo.test;
 
 import java.util.ArrayList;
 import java.util.Scanner;
