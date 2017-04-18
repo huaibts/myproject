@@ -6,6 +6,9 @@ public class Student {
 	int chinese;
 	static int pass = 60;
 	
+	public Student(){
+		
+	}
 	/*自動產生建構子屬性
 	右鍵>>source>>Generate Constructor using fields 
 		public Student(int english, int math, int chinese) {
