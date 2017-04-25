@@ -5,7 +5,27 @@ public class Ticket {
 	String name;
 	String price;
 	
-	public void setId(int a){
+	public void setId(int id){
+		this.id = id;
+		//set-->void
+	}
+	public int getId(){
+		return id;
+		//get-->return
+	}
+	public void setName(String name){
+		this.name = name;
+	}
+	public String getName(){
+		return name;
+	}
+	public void setPrice(String price){
+		this.price = price;
+	}
+	public String getPrice(){
+		return price;
+	}
+	/*public void setId(int a){
 		id = a;
 	}
 	public void setName(String b){
@@ -18,10 +38,10 @@ public class Ticket {
 		id+=d;
 	}
 	public void getName(String e){
-	name +=e;
+		name +=e;
 	}
 	public void getPrice(String f){
-	price+=f;
-	}
+		price+=f;
+	}*/
 	
 }

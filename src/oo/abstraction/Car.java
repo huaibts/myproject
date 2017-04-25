@@ -9,11 +9,17 @@ public class Car {
 	int id;
 	float milage;
 	
+	public Car(String brand,String name){
+		this(brand,name,0);//只能放在建構子內的第一行
+   /*或是this.brand = brand;
+		this.name = name;
+		 */
+	}
+	
 	public Car(String brand,String name,int cc){
 		this.brand = brand;
 		this.cc = cc;
 		this.name = name;
-//		this.type = type;
 	}
 	
 	//          第一詞:小寫;第二詞以後第一字大寫(ex:setMilage)
