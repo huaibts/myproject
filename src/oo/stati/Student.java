@@ -1,6 +1,6 @@
 package oo.stati;
 
-class Student {
+public class Student {
 /*	public.private.protected: access存取修飾字
 	private->內部用      protected->有繼承的(子類別)可用     無->只有同package可用*/
 	int english;
@@ -16,7 +16,7 @@ class Student {
 	//	System.out.println(english);
 	}
 	
-	Student(){
+	public Student(){
 		
 	}
 	/*自動產生建構子屬性
@@ -48,7 +48,7 @@ class Student {
 		System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese));
 	}
 	
-	private String getScore(int score){
+	protected String getScore(int score){
 		if(score < pass){
 			return String.valueOf(score)+"*";
 		}else{

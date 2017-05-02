@@ -9,6 +9,10 @@ public class Car {
 	int id;
 	float milage;
 	
+	public Car(){
+		
+	}
+	
 	public Car(String brand,String name){
 		this(brand,name,0);//只能放在建構子內的第一行
    /*或是this.brand = brand;
