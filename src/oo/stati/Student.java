@@ -1,6 +1,6 @@
 package oo.stati;
 
-public class Student {
+class Student {
 /*	public.private.protected: access存取修飾字
 	private->內部用      protected->有繼承的(子類別)可用     無->只有同package可用*/
 	int english;
