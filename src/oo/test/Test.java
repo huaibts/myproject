@@ -2,7 +2,9 @@ package oo.test;
 
 //Import:加入不同package的class
 import oo.abstraction.Car;
-					//Car或*	
+import oo.stati.Student;
+
+//Car或*	
 import java.util.ArrayList;
 				//ArrayList或*
 public class Test {
@@ -27,6 +29,7 @@ public class Test {
 		System.out.println(a);
 		String data = a.get(3);
 //		int n = (int)a.get(4);
+		
 		
 		
 		/*本次開獎號為
