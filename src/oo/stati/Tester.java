@@ -20,8 +20,9 @@ public class Tester {
 		GraduateStudent gstu2 = new GraduateStudent(78, 89, 60);
 		gstu1.print();
 		gstu2.print();
+		System.out.println();
 		//
-		ArrayList<Student> list = new ArrayList<>();
+		ArrayList<Student> list = new ArrayList();
 		list.add(new Student(58, 98, 66));
 		list.add(new Student(55, 89, 66));
 		list.add(new Student(65, 79, 56));
