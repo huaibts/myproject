@@ -11,6 +11,9 @@ public class Test {
 	
 
 	public static void main(String[] args) {
+		Student stu = new Student();
+		System.out.println(stu);
+		
 		Car c = new Car("Toyota", "asd", 2000);
 		ArrayList<String> a = new ArrayList();
 		//<>:置於類別後，只接受<>內的型態
