@@ -1,7 +1,6 @@
 package oo.shoping;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 import oo.shoping.Customer;
 
@@ -18,10 +17,24 @@ public class Cost {
 		list.add(new GoldenCustomer(50080));
 		list.add(new GoldenCustomer(25001));
 		list.add(new SilverCustomer(5560));
-		for(int i = 0;i < list.size();i++){
-			//父類別的參照 可以放置 子類別的物件
-			Customer cus = list.get(i);
-			cus.print();
+//		for(int i = 0;i < list.size();i++){
+			//父類別(super、base)的參照 可以放置 子類別(sub、derived )的物件
+//			Customer cust = list.get(i);
+		for(Customer cust : list){
+			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
+				System.out.print("[銀]");
+				SilverCustomer silver = (SilverCustomer)cust;
+			}else{
+				if(cust instanceof GoldenCustomer){
+					System.out.print("[金]");
+				}
+			}
+			cust.print();
+		}
+		String[] array = {"aa","bb","cc"};
+		for(String s :array){
+			//foreach迴圈
+			System.out.println(s);
 		}
 	}
 

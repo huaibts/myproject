@@ -4,9 +4,7 @@ public class Customer {
 	int price;
 	float discount = 0.9f;
 	float returnRate = 0.05f;
-	Customer(){
-		
-	}
+	
 	public Customer(int price){
 		this.price = price;
 	} 
