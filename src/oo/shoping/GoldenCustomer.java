@@ -1,15 +1,12 @@
 package oo.shoping;
 
 public class GoldenCustomer extends SilverCustomer{
-	float discount = 0.1f;
-	float returnRate = 0.05f;
-	public GoldenCustomer(int price,float discount,float returnRate){
+	public GoldenCustomer(int price){
 		this.price = price;
-		this.discount = discount;
-		this.returnRate = returnRate;
 	} 
 	@Override
 	public void print(){
-		System.out.println(price+"\t"+discount+"\t"+returnRate);
+		System.out.println("金級客戶:");
+		System.out.println("價錢:"+price+"\t"+"折扣後:"+(discount*price)+"\t"+"還元金:"+(returnRate*price));
 	}
 }

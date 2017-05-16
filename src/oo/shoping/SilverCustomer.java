@@ -1,16 +1,15 @@
 package oo.shoping;
 
 public class SilverCustomer extends Customer{
-	float discount = 0.1f;
 	SilverCustomer(){
 		
 	}
-	public SilverCustomer(int price,float discount){
+	public SilverCustomer(int price){
 		this.price = price;
-		this.discount = discount;
 	} 
 	@Override
 	public void print(){
-		System.out.println(price+"\t"+discount);
+		System.out.println("銀級客戶:");
+		System.out.println("價錢:"+price+"\t"+"折扣後:"+discount*price+"\t"+"還元金:"+"0");
 	}
 }
