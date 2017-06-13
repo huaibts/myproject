@@ -9,9 +9,7 @@ public class NormalCustomer extends Customer{
 
 	@Override
 	public void print() {
-		System.out.println("一般客戶:");
 		System.out.println("價錢:"+price+"\t"+"折扣後:"+price+"\t"+"還元金:"+"0");
-		
 	}
 
 }

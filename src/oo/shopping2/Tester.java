@@ -15,6 +15,19 @@ public class Tester {
 		list.add(new SilverCustomer(65040));
 		list.add(new Customer(63210));
 		list.add(new GoldenCustomer(8054));
+		for(Customer cust : list){
+			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
+				System.out.print("[銀]");
+				SilverCustomer silver = (SilverCustomer)cust;
+			}else{
+				if(cust instanceof GoldenCustomer){
+					System.out.print("[金]");
+				}else{
+					System.out.print("[普]");
+				}
+			}
+			cust.print();
+		}
 	}
 
 }

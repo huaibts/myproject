@@ -27,6 +27,8 @@ public class Cost {
 			}else{
 				if(cust instanceof GoldenCustomer){
 					System.out.print("[金]");
+				}else{
+					System.out.print("[普]");
 				}
 			}
 			cust.print();
