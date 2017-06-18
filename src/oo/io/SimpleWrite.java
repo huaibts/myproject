@@ -10,7 +10,7 @@ public class SimpleWrite {
 
 		try{
 			FileOutputStream fos = new FileOutputStream("data.txt");
-			fos.write(45);
+			fos.write(39);
 			fos.flush();
 			fos.close();
 		}catch(FileNotFoundException e){

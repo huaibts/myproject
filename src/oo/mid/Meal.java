@@ -19,4 +19,10 @@ public class Meal {
 	
 		
 	}
+	public void setDrink(String drink){
+		this.drink = drink;
+	}
+	public String getDrink(){
+		return drink;
+	}
 }
