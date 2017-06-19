@@ -21,7 +21,7 @@ public class Cost {
 			//父類別(super、base)的參照 可以放置 子類別(sub、derived )的物件
 //			Customer cust = list.get(i);
 		for(Customer cust : list){
-			// instanceof 看他是屬於哪裡的
+			// 使用instanceof判斷物件是那個類別
 			// 把右邊的list從第一筆到最後一筆照順序放入左邊的Customer cust
 			if(cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)){
 				System.out.print("[銀]");
