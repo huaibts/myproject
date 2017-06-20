@@ -28,8 +28,11 @@ public class Tester {
 		list.add(new Student(65, 79, 56));
 		list.add(new GraduateStudent(66, 87, 66));
 		list.add(new GraduateStudent(78, 89, 60));
-		for(int i = 0;i<list.size();i++){
-			Student stu = list.get(i);
+//		for(int i = 0;i<list.size();i++){
+//			Student stu = list.get(i);
+//			stu.print();
+//		}
+		for(Student stu : list){
 			stu.print();
 		}
 		

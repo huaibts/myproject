@@ -19,6 +19,7 @@ public class Tester {
 			}else{
 				if(cust2 instanceof GoldenCustomer){
 					System.out.print("[金]");
+					GoldenCustomer golden2 = (GoldenCustomer)cust2;
 				}else{
 					System.out.print("[普]");
 				}

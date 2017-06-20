@@ -19,10 +19,16 @@ public class Meal {
 	
 		
 	}
-	public void setDrink(String drink){
+/*	public void setDrink(String drink){
 		this.drink = drink;
 	}
 	public String getDrink(){
 		return drink;
 	}
+	public void setPrice(int price){
+		this.price = price;
+	}
+	public int getPrice(){
+		return price;
+	}*/
 }
